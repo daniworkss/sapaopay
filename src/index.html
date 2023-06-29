@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../dist/tailwind.css">
+    <link rel="stylesheet" href="./index.css">
+    <title>Opay clone</title>
+</head>
+<body>
+    <div class="header-container flex justify-between pl-2 pr-4 items-center">
+        <div class="profile-pic flex items-center gap-2">
+            <img src="./images/profile-pic.svg" alt="">
+         <h1>Hello, CHISOM</h1>
+        </div>  
+
+         <div class="header-icons flex gap-4">
+         <img src="./images/support.png" alt="">
+         <img src="./images/scan.png" alt="">
+         <img src="./images/ringing-bell.png" alt="">
+        </div> 
+    </div>
+    <!-- for transfer-container -->
+     <div class="transfer-wrapper w-full flex justify-center mt-4">
+        <div class="transfer-container">
+         
+            <div class=" balance_transaction flex justify-between pl-4 pr-4 mt-2 mb-3 text-white">
+                <div class="flex items-center gap-2">
+                 <p>Available Balance</p>
+                 <div class="hide-Account mt-1"></div>
+                </div>
+                <div class=" flex items-center gap-2">
+                    <p>Transaction History</p>
+                     <img src="./images/right-thin-chevron-svgrepo-com.svg" alt="" class="chevron mt-1">
+                </div>
+               
+            </div> 
+            
+            <div class="balance-text pl-4">
+                <h1 class="account-balance text-white text-4xl font-bold">****</h1>
+                <div class="text-white flex items-center gap-3">
+                    <p> & Cashback</p>
+                    <p class=" pt-1 cashback-text">****</p>
+                </div>
+            </div>
+
+            <div class="transfer-icon flex justify-between mt-6 w-full pl-2 pr-2 ">
+               <div class="transfer_icon_wrapper flex justify-center flex-col items-center">
+                <div class="transfer_icon_div">
+                    <img src="./images/plus-icon.svg" alt="">
+                </div>
+                <p>You fit add money</p>
+               </div>
+
+
+               <div class="transfer_icon_wrapper flex justify-center flex-col items-center">
+               <a href="./transferPage.html">
+                <div class="transfer_icon_div">
+                    <img src="./images/transfer-icon.svg" alt="">
+                </div>
+               </a>
+                <p>You no fit withdraw</p>
+               </div>
+              
+              <div class="transfer_icon_wrapper flex justify-center flex-col items-center">
+                <div class="transfer_icon_div">
+                    <img src="./images/withdraw-icon.svg" alt="">
+                </div>
+                <p>You no fit transfer</p>
+              </div>
+            </div>
+        </div>
+     </div>
+
+     <!-- for payment-container -->
+     <div class="payment-wrapper w-full flex justify-center mt-4">
+        <div class="payment-container flex flex-col justify-center items-center gap-6">
+            <div class="payment_list_1 flex">
+                <div class="payment_icon_text flex flex-col items-center">
+                    <div class="payment_icon_bg">
+                        <img src="./images/airtime.png" alt="">
+                    </div>
+                    <p>No Airtime</p>
+
+                </div>
+                <div class="payment_icon_text flex flex-col items-center">
+                    <div class="payment_icon_bg">
+                        <img src="./images/data.png" alt="">
+                    </div>
+                    <p>No Data</p>
+
+                </div>
+                <div class="payment_icon_text flex flex-col items-center">
+                   <div class="payment_icon_bg">
+                    <img src="./images/football.png" alt="">
+                   </div>
+                   <p>No Betting</p>
+
+                </div>
+                <div class="payment_icon_text flex flex-col items-center">
+                   <div class="payment_icon_bg">
+                    <img src="./images/tv-sub.png" alt="">
+                   </div>
+                   <p>No Tv</p>
+                </div>
+            </div>
+            <div class="payment_list_2 flex">
+                <div class="payment_icon_text flex flex-col items-center">
+                   <div class="payment_icon_bg">
+                    <img src="./images/electricity.png" alt="">
+                   </div>
+                   <p>No Electricity</p>
+                </div>
+                <div class="payment_icon_text flex flex-col items-center">
+                    <div class="payment_icon_bg">
+                        <img src="./images/internet.png" alt="" style="width: 40px; height: 40px;">
+                    </div>
+                    <p>No Internet</p>
+                </div>
+                <div class="payment_icon_text flex flex-col items-center">
+                    <div class="payment_icon_bg">
+                        <img src="./images/education.png" alt="">
+                    </div>
+                    <p>No Education</p>
+                </div>
+                <div class="payment_icon_text flex flex-col items-center">
+                    <div class="payment_icon_bg">
+                        <img src="./images/more-icon.png" alt="" class="more-img" style="width: 40px; height: 40px;">
+                    </div>
+                    <p>Go Hustle</p>
+
+                </div>
+            </div>
+        </div>
+     </div>
+
+     <!-- for nav-container -->
+     <div class="nav-container flex bg-white fixed bottom-0 justify-around w-full pt-2 pb-4">
+        <div class="nav-content">
+            <img src="./images/opay-logo.png" alt="">
+            <p class="home-text">Home</p>
+        </div>
+        <div class="nav-content">
+            <img src="./images/reward.png" alt="">
+            <p class="nav-text">Rewards</p>
+        </div>
+        <div class="nav-content">
+            <img src="./images/finance.png" alt="">
+            <p class="nav-text">Cards</p>
+        </div>
+        <div class="nav-content">
+            <img src="./images/New Project (1).png" alt="">
+            <p class="nav-text">Me</p>
+        </div>
+     </div>
+ 
+
+<script src="index.js"></script>
+</body>
+</html>
